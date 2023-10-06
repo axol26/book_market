@@ -62,7 +62,7 @@
                         </div>
                         <div class="bottom-14 absolute left-[35%]">
                           
-                          <a href="https://testytesty.netlify.app/" target="_blank" class="w-[50%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ease-in-out duration-300 text-center">
+                          <a href="https://bookreview-t1vn.onrender.com" target="_blank" class="w-[50%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ease-in-out duration-300 text-center">
                             Review a Book!
 
                           </a>

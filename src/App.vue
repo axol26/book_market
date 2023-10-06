@@ -35,17 +35,17 @@
         </div>
         <ul class="flex gap-5">
           <li>
-              <a href="https://portfolio0826.onrender.com" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
+              <a href="https://portfolio0826.onrender.com" target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
                 <font-awesome-icon icon="fa-solid fa-house" />
               </a>
           </li>
           <li>
-              <a href="https://github.com/axol26" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
+              <a href="https://github.com/axol26" target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
                 <font-awesome-icon icon="fa-brands fa-github" />
               </a>
           </li>
           <li>
-              <a href="https://www.linkedin.com/in/leonard-amiel-nania/" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
+              <a href="https://www.linkedin.com/in/leonard-amiel-nania/" target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
                 <font-awesome-icon icon="fa-brands fa-linkedin" />
               </a>
           </li>
