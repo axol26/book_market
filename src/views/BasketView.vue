@@ -94,7 +94,7 @@ export default {
   },
   methods: {
     fetchData() {
-        axios.get("http://127.0.0.1:8000/api/baskets")
+        axios.get("https://book-market-be-final.vercel.app/api/api/baskets")
             .then(response => {
                 this.jsonData = response.data;
                 this.calculateSubtotal(this.jsonData);
@@ -104,7 +104,7 @@ export default {
             });
     },
     addQty(bookId) {
-        axios.post(`http://127.0.0.1:8000/api/baskets/add/${bookId}`)
+        axios.post(`https://book-market-be-final.vercel.app/api/api/baskets/add/${bookId}`)
             .then(response => {
                 console.log('POST request successful:', response.data);
             })
@@ -114,7 +114,7 @@ export default {
         this.fetchData();
     },
     removeQty(bookId) {
-        axios.post(`http://127.0.0.1:8000/api/baskets/remove/${bookId}`)
+        axios.post(`https://book-market-be-final.vercel.app/api/api/baskets/remove/${bookId}`)
             .then(response => {
                 console.log('POST request successful:', response.data);
             })

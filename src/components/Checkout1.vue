@@ -148,14 +148,14 @@ export default {
 
       
 
-      axios.post("http://127.0.0.1:8000/api/baskets/deletebasket")
+      axios.post("https://book-market-be-final.vercel.app/api/api/baskets/deletebasket")
         .then(response => {
           this.jsonData = response.data;
         })
         .catch(error => {
           console.log("Error fethcing data:", error);
         });
-      axios.post("http://127.0.0.1:8000/api/checkouts", requestData)
+      axios.post("https://book-market-be-final.vercel.app/api/api/checkouts", requestData)
         .then(response => {
           this.jsonData = response.data;
           alert("Order Placed!");
@@ -168,7 +168,7 @@ export default {
       
     },
     fetchData() {
-      axios.get("http://127.0.0.1:8000/api/baskets")
+      axios.get("https://book-market-be-final.vercel.app/api/api/baskets")
         .then(response => {
           this.jsonData = response.data;
           // console.log(this.jsonData);

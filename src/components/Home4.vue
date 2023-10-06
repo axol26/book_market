@@ -20,7 +20,7 @@ export default {
   methods: {
     fetchData() {
       // Use Axios as imported in this component
-      axios.get('http://127.0.0.1:8000/api/books/1')
+      axios.get('https://book-market-be-final.vercel.app/api/api/books/1')
         .then(response => {
           this.jsonData = response.data;
         })
