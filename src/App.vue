@@ -12,7 +12,7 @@
         <div class="w-1/3 flex justify-center gap-4">
           <RouterLink to="/" class="hover:text-violet-600 ease-in-out duration-300 font-bold">Home</RouterLink>
           <RouterLink to="/product" class="hover:text-violet-600 ease-in-out duration-300 font-bold">Products</RouterLink>
-          <RouterLink to="/basket" class="hover:text-violet-600 ease-in-out duration-300 font-bold">Baksets</RouterLink>
+          <RouterLink to="/basket" class="hover:text-violet-600 ease-in-out duration-300 font-bold">Baskets</RouterLink>
         </div>
 
         <div class="w-1/3 flex justify-end gap-4">
