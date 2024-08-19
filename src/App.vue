@@ -16,8 +16,8 @@
         </div>
 
         <div class="w-1/3 flex justify-end gap-4">
-          <a href="http://booklib123.somee.com" target="_blank" class="border hover:bg-gray-600 p-2 rounded-lg text-md hover:text-violet-400 border-gray-400 ease-in-out duration-300">Book Management</a>
-          <a href="https://bookreview-t1vn.onrender.com" target="_blank" class="border hover:bg-gray-600 p-2 rounded-lg text-md hover:text-violet-400 border-gray-400 ease-in-out duration-300">Book Review</a>
+          <a :href=project1Url target="_blank" class="border hover:bg-gray-600 p-2 rounded-lg text-md hover:text-violet-400 border-gray-400 ease-in-out duration-300">Book Management</a>
+          <a :href=project3Url target="_blank" class="border hover:bg-gray-600 p-2 rounded-lg text-md hover:text-violet-400 border-gray-400 ease-in-out duration-300">Book Review</a>
         </div>
       </nav>
     </header>
@@ -35,17 +35,17 @@
         </div>
         <ul class="flex gap-5">
           <li>
-              <a href="https://portfolio0826.onrender.com" target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
+              <a :href=portfolioUrl target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
                 <font-awesome-icon icon="fa-solid fa-house" />
               </a>
           </li>
           <li>
-              <a href="https://github.com/axol26" target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
+              <a :href=githubUrl target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
                 <font-awesome-icon icon="fa-brands fa-github" />
               </a>
           </li>
           <li>
-              <a href="https://www.linkedin.com/in/leonard-amiel-nania/" target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
+              <a :href=linkedinUrl target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
                 <font-awesome-icon icon="fa-brands fa-linkedin" />
               </a>
           </li>
@@ -65,6 +65,11 @@ export default {
   data() {
     return {
       isMobileMenuOpen: false,
+      linkedinUrl: import.meta.env.VITE_LINKEDIN,
+      githubUrl: import.meta.env.VITE_GITHUB,
+      portfolioUrl: import.meta.env.VITE_PORTFOLIO,
+      project1Url: import.meta.env.VITE_ASPX,
+      project3Url: import.meta.env.VITE_REACT,
     };
   },
   methods: {

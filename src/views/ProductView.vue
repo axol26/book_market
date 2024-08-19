@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     fetchData() {
-      axios.get("https://book-market-be-final.vercel.app/api/api/books")
+      axios.get("/api/books")
         .then(response => {
           this.jsonData = response.data;
         })
@@ -50,7 +50,7 @@ export default {
         });
     },
     addBook(bookId) {
-      axios.post(`https://book-market-be-final.vercel.app/api/api/baskets/add/${bookId}`)
+      axios.post(`/api/baskets/add/${bookId}`)
         .then(response => {
           console.log('POST request successful:', response.data);
         })

@@ -148,14 +148,14 @@ export default {
 
       
 
-      axios.post("https://book-market-be-final.vercel.app/api/api/baskets/deletebasket")
+      axios.post("/api/baskets/deletebasket")
         .then(response => {
           this.jsonData = response.data;
         })
         .catch(error => {
           console.log("Error fethcing data:", error);
         });
-      axios.post("https://book-market-be-final.vercel.app/api/api/checkouts", requestData)
+      axios.post("/api/checkouts", requestData)
         .then(response => {
           this.jsonData = response.data;
           alert("Order Placed!");
@@ -168,7 +168,7 @@ export default {
       
     },
     fetchData() {
-      axios.get("https://book-market-be-final.vercel.app/api/api/baskets")
+      axios.get("/api/baskets")
         .then(response => {
           this.jsonData = response.data;
           // console.log(this.jsonData);

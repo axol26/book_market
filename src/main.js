@@ -19,6 +19,8 @@ import { faHouse, faShoppingBasket } from '@fortawesome/free-solid-svg-icons'
 /* add icons to the library */
 library.add(faEnvelope, faGithub, faLinkedin, faFileWord, faCodepen, faHandScissors, faFaceMeh, faHouse, faShoppingBasket, faLightbulb)
 
+import axios from 'axios'
+axios.defaults.baseURL = import.meta.env.VITE_BACKEND;
 
 const app = createApp(App)
 
