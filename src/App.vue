@@ -39,11 +39,11 @@
                 <font-awesome-icon icon="fa-solid fa-house" />
               </a>
           </li>
-          <li>
+          <!-- <li>
               <a :href=githubUrl target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
                 <font-awesome-icon icon="fa-brands fa-github" />
               </a>
-          </li>
+          </li> -->
           <li>
               <a :href=linkedinUrl target="_blank" class="text-3xl text-gray-800 hover:text-violet-600 ease-in-out duration-300">
                 <font-awesome-icon icon="fa-brands fa-linkedin" />
